@@ -9,7 +9,7 @@ section, footer {width:980px;padding:10px;}
 
 	header {background:#ccc;display:inline-table;}
 		header a#logo {float:left;padding:5px;}
-		header a#logo h1 {color:#444;}
+		header a#logo h1 {color:#444;padding:20px;}
 	
 	header nav {background:#ddd;clear:both;padding:5px 5px 2px 5px;}
 		header nav ul {display:inline-table;}
