@@ -1,6 +1,6 @@
 @import url("lib/reset.css");
 
-h1 {font-size:2em;font-family:'Droid sans'}
+h1 {font-size:1.8em;font-family:'Droid sans'}
 
 body {
   background:#fff;
