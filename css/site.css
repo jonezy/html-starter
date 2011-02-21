@@ -1,7 +1,8 @@
 @import url("lib/reset.css");
 @import url("lib/messages.css");
 
-h1 {font-size:2em;font-family:'Droid sans'}
+h1 {font-size:2em;font-family:'Droid sans';}
+h2 {font-family:'Droid sans';}
 
 body {
   background:#fff;
