@@ -17,7 +17,7 @@ body {
 header, section, footer {width:1000px; margin:0 auto 0 auto;text-align:left;}
 section, footer {width:980px;padding:10px;}
 
-header {background:#ccc;}
+header {background:#eee;}
   header a#logo {float:left;padding:5px;}
     header a#logo h1 {color:#444;padding:20px 0 20px 10px;}
     
