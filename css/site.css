@@ -1,34 +1,35 @@
 @import url("lib/reset.css");
 @import url("lib/messages.css");
 
+/* 
+ * put your styles in here 
+ */
+
 h1 {font-size:2em;font-family:'Droid sans';}
 h2 {font-family:'Droid sans';}
 
 body {
   background:#fff;
-  xfont-family:Arial,Verdana,Helvetica,sans-serif;
   font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
-  xfont-family: 'Trebuchet MS', Helvetica, sans-serif !important;
-  xfont-family: Tahoma, Geneva, sans-serif;
   text-align:center;
+  margin-top:32px !important;
 }
 
 header, section, footer {width:1000px; margin:0 auto 0 auto;text-align:left;}
 section, footer {width:980px;padding:10px;}
 
-  header {background:#ccc;}
-    header a#logo {float:left;padding:5px;}
-      header a#logo h1 {color:#444;padding:20px 0 20px 10px;}
-      
-  header nav {background:#ddd;clear:both;float:left;width:100%;}
-    header nav ul {display:block;float:left;}
-    header nav ul li {color:#444;float:left;}
-    header nav ul li a {color:#444;padding:10px;display:block;}
-    header nav ul li a:hover,
-    header nav ul li a.selected {color:#fff; background:#444;}
+header {background:#ccc;}
+  header a#logo {float:left;padding:5px;}
+    header a#logo h1 {color:#444;padding:20px 0 20px 10px;}
+    
+header nav {background:#ddd;clear:both;float:left;width:100%;}
+  header nav ul,
+  header nav ul li {float:left;}
+  header nav ul li a {color:#444;padding:10px;display:block;}
+  header nav ul li a:hover,
+  header nav ul li a.selected {color:#fff; background:#444;}
 
-section {background:#eee;min-height:500px;}
-footer {background:#ccc;height:80px;}
+footer {background:#eee;height:80px;}
 
 /*
  * media queries for responsive design
