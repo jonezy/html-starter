@@ -1,18 +1,17 @@
 @import url("lib/reset.css");
 @import url("lib/messages.css");
+@import url("lib/forms.css");
 
-/* 
- * put your styles in here 
- */
-
+ /* put your styles in here */
 h1 {font-size:2em;font-family:'Droid sans';}
 h2 {font-family:'Droid sans';}
+h3 {font-family:'Droid sans';border-bottom:solid 1px #ccc;}
+p {margin: 1em 0 1em 0;}
 
 body {
   background:#fff;
   font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
   text-align:center;
-  margin-top:32px !important;
 }
 
 header, section, footer {width:1000px; margin:0 auto 0 auto;text-align:left;}
@@ -29,6 +28,7 @@ header nav {background:#ddd;clear:both;float:left;width:100%;}
   header nav ul li a:hover,
   header nav ul li a.selected {color:#fff; background:#444;}
 
+section footer {background:none; height:auto;padding:0px 0px 0px 15px;}
 footer {background:#eee;height:80px;}
 
 /*
