@@ -22,8 +22,23 @@
     </ul>
   </nav>
 </header>
-<section>
+<section class="clearfix">
   <h2>forms.css</h2>
+  <ol class="forms">
+    <li><label>Textbox</label><input type="text" id="txtStd" /></li>
+    <li><label>Textbox (med)</label><input type="text" id="txtMed" class="med" /></li>
+    <li><label>Textbox (small)</label><input type="text" id="txtSmall" class="small" /></li>
+    <li><label>Textarea</label><textarea id="txtAreaStd"></textarea></li>
+    <li><label>Textarea (short)</label><textarea id="txtAreaShort" class="short"></textarea></li>
+    <li>
+      <label>Checkbox list</label>
+      <ol>
+        <li><label>Item 1</label><input type="checkbox" id="chkBox" /></li>
+        <li><label>Item 2</label><input type="checkbox" id="chkBox1" /></li>
+      </ol>
+    </li>
+    <li class="buttons"><input type="button" id="btnSubmit" value="Submit" /></li>
+  </ol>
 </section>
 <footer></footer>
 </body> 
