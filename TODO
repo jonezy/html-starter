@@ -12,3 +12,4 @@ Messages
 - rakefile that will take everything and setup a new project directory for you
 - should minify and combine the css + js
 - should work like rake bootstrap['folder_name']
+- html5shiv to get this bitch to work in ie
