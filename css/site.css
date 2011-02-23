@@ -1,6 +1,6 @@
-@import url("lib/reset.css");
-@import url("lib/messages.css");
-@import url("lib/forms.css");
+@import url("reset.css");
+@import url("messages.css");
+@import url("forms.css");
 
  /* put your styles in here */
 h1 {font-size:2em;font-family:'Droid sans';}
