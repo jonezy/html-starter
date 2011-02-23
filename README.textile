@@ -1,4 +1,4 @@
-= Html Starter
+h1. Html Starter
 
 This is a collection of bits and pieces that i've started projects with over the years.  I've always had this starting point but I've never really had it all compiled and put in one place. 
 
@@ -7,12 +7,12 @@ The general idea is that every project starts somewhere, and if that somewhere e
 The secondary idea is that i'm getting back to some of my coding roots, I started out as an html/css/js monkey
  back when nobody really knew much about any of them.  This is me showing my age and reliving my youth (minus some of the stupid mistakes).
 
-== Layout
+h2. Layout
 
-== Messages
+h2. Messages
 
 You might not believe it but i've had a version of this messages.css file for at least 5 years now.  I'm actually spending some real time and effort on making this do the things i've always wanted it to but never really took the time to.
 
-== Forms
+h2. Forms
 
 Forms is relatively new and the original basis of the whole deal is stolen from someone, I just wish I could remember who?
