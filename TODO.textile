@@ -1,0 +1,15 @@
+h1. Forms
+  * forms.html to show forms.css
+  * base forms.css should show a great example out of the box.
+
+Messages
+  * messages.html to show messages.css
+  * make all the message box text white?
+  * be sure to include flash class
+  * start thinking about ways to include closing (fading, hiding)
+    functionality (minimal js)
+
+* rakefile that will take everything and setup a new project directory for you
+* should minify and combine the css + js
+* should work like rake bootstrap['folder_name']
+* html5shiv to get this bitch to work in ie
