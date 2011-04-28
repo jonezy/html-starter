@@ -1,14 +1,9 @@
-﻿/*
- * messages.css
+﻿/* messages.css
  * a set of classes that let you express messages in your application.
- *
- * encode images as base64 here - http://www.motobit.com/util/base64-decoder-encoder.asp
- */
-
+ * encode images as base64 here - http://www.motobit.com/util/base64-decoder-encoder.asp */
+ 
 /* make sure the p tag is reset */
-div.Message_Error p, div.Message_Success p, div.Message_Warning p, div.Message_Info p {
-  margin:0 !important;padding:0 !important;
-}
+div.Message_Error p, div.Message_Success p, div.Message_Warning p, div.Message_Info p {margin:0 !important;padding:0 !important;}
 
 /* shared between all messages */
 div.Message_Error, div.Message_Success, div.Message_Warning, div.Message_Info {
@@ -16,6 +11,14 @@ div.Message_Error, div.Message_Success, div.Message_Warning, div.Message_Info {
   margin: 10px; padding: 8px 0px 8px 32px; 
   border: solid 1px; background-repeat:no-repeat; background-position: 8px 50%;
   -moz-border-radius:5px; -webkit-border-radius:5px; -khtml-border-radius:5px;border-radius:5px;
+  position:relative;
+}
+
+/* close button */
+div.Message_Error div.close, div.Message_Success div.close, div.Message_Warning div.close, div.Message_Info div.close  {
+	float:right;position:absolute;top:0px;right:0px;
+	padding:0px 2px 0px 0px;cursor:pointer;border:0px;
+	font-weight:bold;font-size:11px;
 }
 
 /* icons are embedded as base64, won't work in some older browsers, don't know don't care. */
